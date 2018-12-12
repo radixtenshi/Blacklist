@@ -16,6 +16,7 @@ http://www.*de.vu |
 aaliyah-hq-gallery.de.vu |
 abcgolocal.com |
 
+No se aceptan espacios ni simbolos de comentarios al final de la linea. Cada linea e sinterpretada como un dominio completo.
 
 IPs y Redes: Listados de IPs Redes o Rangos en texto plano, procesados linea por linea.
 
