@@ -1,7 +1,7 @@
-.duapp.com 						## ET POLICY curl User-Agent Outbound agregado por gdemarco el 10/07/2017
-.e-planning.net
-.aiyzx.com
-.amountgarden.net
+www.duapp.com 						## ET POLICY curl User-Agent Outbound agregado por gdemarco el 10/07/2017
+www.e-planning.net
+www.aiyzx.com
+www.amountgarden.net
 .b.scorecardresearch.com
 .badongo.com
 .bahaifind.com
