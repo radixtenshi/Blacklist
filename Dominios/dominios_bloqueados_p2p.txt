@@ -1,0 +1,116 @@
+#===========================================================================
+#	Sitios varios 
+#	Update: 06-07-2016
+#
+#	para buscar duplicados:awk '{print $1}' /etc/squid/dominios_bloqueados_p2p | sort | uniq -d
+#
+#===========================================================================
+.bajaryoutube.com	# Sitio para bajar youtube a partir de un link.
+.mobogenie.com	# Android market con malware. blackmarket.
+.unblocked.one	# Directorio para acceder a sitios bloqueados.
+#===========================================================================
+#	Sitios Buscadores de p2p y direct download
+#	Update: 06-07-2016
+#===========================================================================
+.avaxhome-mirrors.pw	# Mirror de avaxhome
+.avaxhome.co
+.megasearch.co
+.scnsrc.me
+#===========================================================================
+#	Sitios indexadores de torrents y magnet links (Buscadores)
+#	Update: 06-07-2016
+#===========================================================================
+.1337x.to
+.acestream.org
+.atomurl.net
+.bitsnoop.com
+.bittorrent.com
+.btjunkie.net
+.cdn4.hola.org
+.extratorrent.cc
+.eztv.it
+.isohunt.to
+.kat.cr
+.kickass.cd
+.kinesis.tv
+.limetorrents.cc
+.mininova.org
+.monova.org
+.mytorrentzsearch.com
+.oldpiratebay.org
+.piratetorrents.net
+.rarbg.to
+.subtorrents.com
+.sumotorrent.sx
+.thepiratebay.se
+.thepiratebay.to
+.torrent-finder.info
+.torrentdb.li
+.torrentdownloads.me
+.torrentfunk.com
+.torrenthound.com
+.torrentsgames.org
+.torrentstream.org
+.torrentstream.tv
+.torrentz.com
+.torrentz.eu
+.yts.re
+.pixel.quantserve.com			# 09-06-2016 - AIO-103036002  HCDN\jbasterra
+.download.media-get.com			# 09-06-2016 - WK-94DE80857FB8 - afarias.dautomotores
+#===========================================================================
+#	Sitios Clientes de Torrrent
+#	Update: 06-07-2016
+#===========================================================================
+.binarynotions.com	# Halite torrent client
+.bitlord.com
+.bitspirit.cc
+.deluge-torrent.org
+.frostwire.com
+.qbittorrent.org
+.transmissionbt.com
+.tribler.org
+.utorrent.com
+.bittorrent.com	# Update Utorrent
+.vuze.com
+#===========================================================================
+#	Sitios de torrent stream
+#	Update: 08-08-2016
+#===========================================================================
+.popcorntime-online.io
+#===========================================================================
+#	Sitios de File Sharing
+#	Update: 05-07-2016
+#===========================================================================
+.4shared.com
+.depositfiles.com
+.depositfiles.org
+.filefactory.com
+.filefront.com
+.fileho.com
+.filesend.net
+.gigasize.com
+.mediafire.com
+.mediaget.com
+.mega.nz
+.mega.co.nz
+.megashares.com
+.megaupload.com
+.myfreefilehosting.com
+.opendrive.com
+.rapidgator.net
+.rapidshare.com
+.rapidshare.de
+.savefile.com
+.seedpeer.me
+.sendbigfiles.com
+.sendspace.com
+.solidfiles.com
+.speedyshare.com
+.transferbigfiles.com
+.turboupload.com
+.uploadin.com
+.uploading.com
+.uptobox.com
+.wikiupload.com
+.zippyshare.com
+.zupload.com

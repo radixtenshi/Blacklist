@@ -1,0 +1,12 @@
+#===========================================================================
+#	INTENTOS - PHISHING - MALWARE LANDING PAGES
+#	Update: 05-07-2016
+#
+#	Para buscar duplicado:awk '{print $1}' /etc/squid/dominios_bloqueados_ataques | sort | uniq -d
+#
+#===========================================================================
+#.hol.es						# http://correoambientegob.hol.es/actualizar/ - 26/04/2016
+.lisinopriland.net				# SQL INJECTION LANDING PAGE - 28/06/2016
+.sumatriptannow.com				# Landing site - SQL Injection Attempt
+.burpcollaborator.net				# SQL Injection y busqueda de vulnerabilities
+worldnaturenet.xyz0				# Sitio de estafas y fraude. Sitio Comprometido - Referencia: http://www.urlvoid.com/scan/worldnaturenet.xyz/#traffic - https://www.virustotal.com/#/domain/worldnaturenet.xyz
