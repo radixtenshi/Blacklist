@@ -1,83 +1,73 @@
-###########################################################################
-#===========================================================================
-# MANTENER ORDENADO EN ORDEN ALFABETICO !!! - cat archivo|sort -d
-#===========================================================================
-#	INTENTOS - PHISHING - MALWARE LANDING PAGES
-#	Para buscar duplicado:awk '{print $1}' /etc/squid/dominios_bloqueados_ataques | sort | uniq -d
-#	Update: 05-07-2016
-############################################################################
-.000webhostapp.com				## Phishing de correo agregado por gdemarco el 14/09/2017
-103.26.102.52					# Phishing - 01/03/2017
-.123formbuilder.com				## Phishing de correo agregado por gdemarco el 01/03/2018
-actualizar-hcdn-gob.esy.es			# Phishing de Correo - 28-04-2017
-.appspot.com					## Phishing de correo agregado por gdemarco el 1/11/2018
-appwerhui.desi					## Phishing de correo agregado por gdemarco el 28/11/2018
-argentinecoming.hol.es				# Phishing de correo agregado el 10/07/2017
-artlife-voronezh.ru				# Phishing de correo agregado el 24/07/2017 - Detectado por el anti-spam
-artstrelov.pro					## Phishing de correo agregado 03/07/2018 - Nico
-askimnaturstein.no				## Phishing de correo agregado el 13/11/2018 gdemarco
-assisteccoifas.com.br				## Phishing de correo agregado el dia 24/08/2017 por Nico
-beam.to						## Phising de correo agregado por nverdi 19/04/2018 
-bujanoff.myjino.ru				## Phishing de correo enviado a shernandez el 24/04/2018
-buldara.com					## Phishing de correo enviado a WEBMASTER el 16/07/2018 agregado por gdemarco
+000webhostapp.com
+123formbuilder.com
+appspot.com
+caspio.com
+fonsis.org
+getforge.io
+gob-admin.com
+goldenfinger.org
+jotform.me
+langkatkab.go.id
+m-paypal.com
+my-free.website
+mybluemix.net
+phpsystems.ca
+privequitybnk.com
+saas.tasl.co.th
+secured0servers.gdn
+sitey.me
+usite.pro
+wapka.mobi
+web2-update.com
+webnode.com
+weebley.com
+weebly.com
+103.26.102.52
+actualizar-hcdn-gob.esy.es
+appwerhui.desi
+argentinecoming.hol.es
+artlife-voronezh.ru
+artstrelov.pro
+askimnaturstein.no
+assisteccoifas.com.br
+beam.to
+bujanoff.myjino.ru
+buldara.com
 canny-design.com.au
-.caspio.com					## Phishing de correo agregado por gdemarco el 28/06/2018
-ce3maw.cl					# Phishing dominio capturado 16/05/2017
-cloud2276178.nitrado.cloud			## Phishing de correo agregado por gdemarco el 15/03/2018 - agregado por Gdemarco
-elektro-doctor.ru				## Phishing de correo enviado a mvieyra el 24/04/2018
-fissoresa.com.ar				## Phishing de correo recibido por Ngarre 23/11/2018 - agregado por gdemarco
-.fonsis.org					## Phishing de correo santander rio, recibido ngarre agregado por gdemarco el 9/10/2018
-formcrafts.com					## Phishing de correo - 16/08/2017 agregado por gdemarco el 16/07/2017
-forms.framestr.com				## Phishing de correo agregado por gdemarco el 21/06/2018
-.getforge.io					## Phishing de correo agregado por gdemarco el 19/04/2018-modificado el 22/03/2018
-.gob-admin.com					## Phishing de correo, agregado por gdemarco el 5/6/2018
-.goldenfinger.org				## Phishing de correo agregado por gdemarco el 06/09/2017
-goshean.cf					## Phishing de correo agregado por gdcemarco el 18/10/2018
-interscoin.top					## Phishing de correo agregado por gdemarco el 21/02/2018
-jicon2012.pt1.in				# Phishing de correo agregado el 24/07/2017 - Detectado por el anti-spam
-.jotform.me					## Phishing de correo agregado por gdemarco el 15/03/2018 - NICO
-langillesmetalrecycling.com			## Phising de correo agregado por gdemarco el 27/08/2018
-.langkatkab.go.id				## phishing de correo agregado por gdemarco el 13/11/2018
-learningforwardmo.com				## Phishing de correo agregado por gdemarco el 27/08/2018 - bandeja spam
-maclellanlive.com				## Phishing de correo agregado por gdemarco el 25/10/2018
-medness.ma					## Phishing de correo agregado por dtrainotti el 12/10/2017
-morena.desarrollando-web.es			## Phishing de correo agregado por gdemarco el 27/08/2018
-mtl-fitness.ru					## Phishing de correo agregado por gdemarco el 26/07/2018
-.m-paypal.com					## ET CURRENT_EVENTS Possible Paypal Phishing Domain Mar 14 (sitio falso de paypal) agregado pr gdemarco el 5/09/2017
-.mybluemix.net					## Phising de correo agregado por nverdi 11/04/2018 
-.my-free.website				## Phishing de correo agregado por gdemarco el 14/12/2017
-#ow.ly						## Phishing de correo agregado por gdemarco el 1/07/2017
-pccp.yonsei.ac.kr				## Phishiing de correo instagram agregado por gdemarco el 1/11/2018
-pilartediseno.com				## Phcishing de correo - 23/08/2017 agregado por saquino
-.phpsystems.ca					## Phishing de correo agregado por gdemarco el 25/10/2018
-.privequitybnk.com				## Phishing de correo agregado por gdemarco e 15/09/2017
-rentaltr.com					## Spam engañoso agregado por gdemarco el 13/11/2018
-rtathreezmbaccss.ml				## Phishing de correo agregado por gdemarco el 23/04/2018
-rubixfunhouse.com				## Phishing de correo agregado por gdemarco el 7/12/2017
-.saas.tasl.co.th				# Landing site - Phishing 05/07/2016
-.secured0servers.gdn				## phishing de correo agregado por gdemarco el 3/08/2018
-secure.mailjol.net				## Phishing de correo agregado por gdemarco el 13/09/2017
-.sitey.me					## Phishing de correo agregado por gdemarco el 2/2/2018
-supersimplesurvey.com				## Phishing de correo egregado por saquino el 08/08/2017
-supertool.ua					## Phishing de correo agregado por gdemarco el 30/07/2018
-surveynuts.com					## Phishing de correo agregado por gdemarco el 13/06/2018
-tccorrcorreocuse.esy.es				## Phishing de correo agregado el 10/07/2017
-triumph.dn.ua					## phishing de correo agregado por gdemarco el 27/08/2018
-tripod.com					## Servidor donde se hostearon multiples phishs desde 2017 agregado por gdemarco el 2/7/2018
-ttlew.com					## phishing de correo agregado por gdemarco el 21/07/2018
-.usite.pro					## Phishing - 02/02/2017
-w2racing.com.br					## Phishing de correo agregado por gdemarco el 23/04/2018
-.wapka.mobi					## Phishing de correo agregado por gdemarco el 10/4/2018
-wdsdp.co.uk					## Phishing de correo agregado el dia 24/08/2017 por Nico
-.web2-update.com				## Phishing de correo enviado a comision de familia, agregado porgdemarco el 1/6/2018
-.webnode.com					## Phisshing de correo agregado por gdemarco el 14/12/2017
-.weebley.com					## Dominio utilizado por phishers agregado por gdemarco el 18/06/2018
-.weebly.com					## Dominio utilizado por phishers agregado por gdemarco el 18/07/2018
-wideopenmotorsport.com				## Phishing recibido como SPAM en el sistema ZIMBRA agregado por gdemarco el 22/8/2018
-wu174.myfreesites.net				## Phishing de correo agregado por gdemarco el 22/09/2017
-zweb.secure-validate.com			## Phishing de correo agregado por gdemarco el 12/12/2017
-newsmailmanager.com				## Phishing de correo agregado por nverdi el 07/08/2018
-iconoclastbrand.com				## Phishing de correo agregado por nverdi el 10/08/2018 10:24hs
-imperialchamber.in				## Phishing de correo agregado por gdemarco el 10/09/2018 11:42
-stroygrad-dom.ru				## Phishing de correo agregado por nverdi el 18/09/2018 11:05hs
-aerodaniels.com					## Phishing de correo agregado por gdemarco el 3/10/2018
+ce3maw.cl
+cloud2276178.nitrado.cloud
+elektro-doctor.ru
+fissoresa.com.ar
+formcrafts.com
+forms.framestr.com
+goshean.cf
+iconoclastbrand.com
+imperialchamber.in
+interscoin.top
+jicon2012.pt1.in
+langillesmetalrecycling.com
+learningforwardmo.com
+maclellanlive.com
+medness.ma
+morena.desarrollando-web.es
+mtl-fitness.ru
+newsmailmanager.com
+pccp.yonsei.ac.kr
+pilartediseno.com
+rentaltr.com
+rtathreezmbaccss.ml
+rubixfunhouse.com
+secure.mailjol.net
+stroygrad-dom.ru
+supersimplesurvey.com
+supertool.ua
+surveynuts.com
+tccorrcorreocuse.esy.es
+tripod.com
+triumph.dn.ua
+ttlew.com
+w2racing.com.br
+wdsdp.co.uk
+wideopenmotorsport.com
+wu174.myfreesites.net
+zweb.secure-validate.com
