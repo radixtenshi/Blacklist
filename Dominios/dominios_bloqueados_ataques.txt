@@ -1,4 +1,4 @@
-lisinopriland.net				# SQL INJECTION LANDING PAGE - 28/06/2016
-sumatriptannow.com				# Landing site - SQL Injection Attempt
-burpcollaborator.net				# SQL Injection y busqueda de vulnerabilities
-worldnaturenet.xyz0				# Sitio de estafas y fraude. Sitio Comprometido - Referencia: http://www.urlvoid.com/scan/worldnaturenet.xyz/#traffic - https://www.virustotal.com/#/domain/worldnaturenet.xyz
+lisinopriland.net
+sumatriptannow.com
+burpcollaborator.net
+worldnaturenet.xyz0
