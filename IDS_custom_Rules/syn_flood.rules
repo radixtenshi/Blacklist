@@ -6,6 +6,6 @@ alert tcp $EXTERNAL_NET any -> any any (flags: S; msg: "CRUXHOST - Possible TCP 
 alert tcp $EXTERNAL_NET any -> any any (flags: A; msg: "CRUXHOST - Possible TCP ACK DoS"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990005; rev:1;)
 
 alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP DoS - 50 in 10 sec"; flow: stateless; threshold: type both, track by_src, count 50, seconds 10; classtype:misc-activity; sid:99990006; rev:2;)
-alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 5 in 1 sec"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990007; rev:2;)
-alert tcp any any -> any any (flags: A; msg: "CRUXHOST - Possible TCP ACK DoS - 5 in 1 sec"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990008; rev:2;)
-alert tcp any any -> any any (flags: AP; msg: "CRUXHOST - Possible TCP ACK PUSH DoS - 5 in 1 sec"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990009; rev:2;)
+alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990007; rev:3;)
+alert tcp any any -> any any (flags: A; msg: "CRUXHOST - Possible TCP ACK DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990008; rev:3;)
+alert tcp any any -> any any (flags: AP; msg: "CRUXHOST - Possible TCP ACK PUSH DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990009; rev:3;)
