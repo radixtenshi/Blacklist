@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset documentation_url="https://github.com/radixtenshi/Blacklist">
+    <location url="https://raw.githubusercontent.com/radixtenshi/Blacklist/master/IDS%20custom%20Rules/" prefix="OPNsense-App-detect"/>
+    <files>
+        <file description="SYN_Flood">syn_flood.rules</file>
+    </files>
+</ruleset>
