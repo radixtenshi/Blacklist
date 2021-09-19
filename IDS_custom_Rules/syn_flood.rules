@@ -8,3 +8,5 @@ alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP DoS - 50 i
 alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990007; rev:3;)
 alert tcp any any -> any any (flags: A; msg: "CRUXHOST - Possible TCP ACK DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990008; rev:3;)
 
+alert tcp $HOME_NET any -> any 137 (msg:"ET SCAN Behavioral Unusual Port 137 traffic Potential Scan or Infection"; flow:to_server; flags: S,12; threshold: type both, track by_src, count 70 , seconds 60; reference:url,doc.emergingthreats.net/2001580; classtype:misc-activity; sid:99990009; rev:1; metadata:created_at 2010_07_30, former_category SCAN, updated_at 2017_05_11;)
+
