@@ -2,7 +2,7 @@ alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg: "CRUXHOST - LOCAL DOS SYN pac
 alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg: "CRUXHOST - LOCAL DOS SYN packet flood outbound, Potential DOS"; flow:to_server; flags: S,12; threshold: type both, track by_dst, count 5000, seconds 5; classtype:misc-activity; sid:99990002; rev:1;)
 
 alert tcp $EXTERNAL_NET any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 50 in 10 sec"; flow: stateless; threshold: type both, track by_src, count 50, seconds 10; classtype:misc-activity; sid:99990003; rev:3;)
-alert tcp $EXTERNAL_NET any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 5 in 1 sec"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990004; rev:4;)
+alert tcp !45.235.98.250 any -> $HOME_NET any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 5 in 1 sec"; flow: stateless; detection_filter: track by_src, count 5, seconds 1; classtype:misc-activity; sid:99990004; rev:4;)
 
 alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP DoS - 50 in 10 sec"; flow: stateless; threshold: type both, track by_src, count 50, seconds 10; classtype:misc-activity; sid:99990006; rev:2;)
 alert tcp any any -> any any (flags: S; msg: "CRUXHOST - Possible TCP SYN DoS - 10 in 1 sec"; flow: stateless; detection_filter: track by_src, count 10, seconds 1; classtype:misc-activity; sid:99990007; rev:3;)
